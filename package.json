@@ -1,0 +1,51 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "browserslist": "> 25%, not dead",
+  "private": true,
+  "description": "JavaScript  Excel App",
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "homepage": "https://github.com/defuhXd/test-js-excel#readme",
+  "bugs": {
+    "url": "https://github.com/defuhXd/test-js-excel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defuhXd/test-js-excel.git"
+  },
+  "license": "ISC",
+  "author": "defuh16",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "cross-env": "^10.1.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.6.5",
+    "mini-css-extract-plugin": "^2.9.4",
+    "sass": "^1.94.2",
+    "sass-loader": "^16.0.6",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}

@@ -1,0 +1,13 @@
+@use 'fix' as *;
+$req: red;
+$blue: dodgerblue;
+
+body{
+background: $req;
+}
+
+.container{
+  border-right: 2px solid #171717;
+  border-left: 2px solid #171717;
+  height: 100dvh;
+}
