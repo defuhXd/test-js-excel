@@ -1,13 +1,29 @@
 @use 'fix' as *;
-$req: red;
-$blue: dodgerblue;
+@use "header";
+@use "toolbar";
+@use "formula";
+@use "table";
+@use "dashboard";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "~normalize.css";
 
-body{
-background: $req;
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
-.container{
-  border-right: 2px solid #171717;
-  border-left: 2px solid #171717;
+.container {
+  border-right: 1px solid rgba(0, 0, 0, .5);
+  border-left: 1px solid rgba(0, 0, 0, .5);
   height: 100dvh;
+}
+
+.excel{
+  position: relative;
+  color: #888;
+  height: 100%;
+  max-width: 100%;
+  font-size: .8rem;
 }

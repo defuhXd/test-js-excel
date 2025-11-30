@@ -28,7 +28,7 @@ const jsLoaders = () => {
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   mode: 'development',
-  entry: ['@ babel/polyfill', './index.js'],
+  entry: ['@babel/polyfill', './index.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: filename('js')
@@ -73,10 +73,10 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              hmr: isDev,
-              reloadAll: true
-            },
+            // options: {
+            //   hmr: isDev,
+            //   reloadAll: true
+            // },
           },
           "css-loader",
           "sass-loader",
