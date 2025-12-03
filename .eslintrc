@@ -10,7 +10,9 @@
     "arrow-parens": "off",
     "comma-dangle": "off",
     "quotes": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "operator-linebreak": "off",
+    "max-len": "off"
   },
   "extends": [
     "eslint:recommended",
